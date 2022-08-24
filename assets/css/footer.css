@@ -1,0 +1,28 @@
+.pic1{
+      background-image: url('../images/img2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: rgba(0, 0, 30, 0.9);
+      background-blend-mode: overlay;
+}
+.wrapper .icon{
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+    /* background: red; */
+    cursor: pointer;
+    margin-inline: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    /* float: left; */
+    
+}
+.picc{
+    background-image: url('../images/img2.jpg'), linear-gradient(transparent, rgb(0, 0, 0));
+    background-size: cover;
+    height: 20rem;
+    background-position: center;
+    background-repeat: repeat;
+    background-blend-mode: overlay;
+
+}
