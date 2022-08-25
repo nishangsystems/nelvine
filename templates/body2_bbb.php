@@ -16,7 +16,7 @@
 </div>
 
 <div class="w-100">
-    <div class="d-flex flex-wrap w-100 bg-x5 mx-auto">
+    <div class="d-flex flex-wrap w-100 bg-x5">
         <div class="col-md-2"></div>
         <div class="col-md-10 color-gold py-5">
             <div class="fs-2 fw-bolder text-uppercase color-semi-gold py-4"></div>
@@ -38,18 +38,21 @@
         
     </div>
 
-    
-    <div class="w-100  py-5" style="background:#e4e4e4">
-     
+
+   
+    <div class="w-100 bg-blk py-5">
+        <div class="fs-1 text-center color-gold pb-3 text-uppercase">NELVINE <br>
+            CEO/BODY HERO/COACH MINCEUR</div>
         <div class="d-flex flex-wrap container mx-auto">
             <div class="col-xs-10 col-md-6 mx-auto d-flex flex-column justify-content-center">
-                <img src="assets/images/flyer.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
+                <img src="assets/images/flyer.jpg" alt="" class="w-75 h-auto mx-auto">
             </div>
-            <div class="col-xs-10 col-md-6 mx-auto fs-3 color-blk">
+            <div class="col-xs-10 col-md-6 mx-auto fs-3 color-gold">
                 <div class="py-2">
-                 
-                    <img src="assets/images/cover.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
-
+                    Perdre 20 kilos en 1 mois,40 kilos en 2 mois ,6 kilos en 6 mois sans régime 
+                    alimentaire avec votre nouveau pack NELVINE EXCLUSIVE LIMITED ÉDITION RENAITRE
+                     REDIFINING YOUR SELF BETTER ME #WOMAN EVOLVE PREMIUM ONLY<br><br>
+                     *Ces vous qui décidez de la rapidité de votre pack
                 </div>
                 <div class="py-2">
              
@@ -62,9 +65,8 @@
         </div>
     </div>
 
+
     
-
-
 
 
 
@@ -170,14 +172,14 @@
         </div>
     </div>
 
-<!--
+
     <div class="w-100  bg-blk  py-5" >
 
         <div class="col-6 mx-auto py-0" >
             <img src="assets/images/cover.jpg" alt="" srcset="" class="w-100">
         </div>
     </div>
--->
+
 
 
 
@@ -185,7 +187,7 @@
 
     <div class="w-100 py-4" style="background-color: #eee;">
         <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-         D'EXPÉRIENCE PHOTO DÉFILÉ.         </div>
+        RETOUR D'EXPÉRIENCE PHOTO DÉFILÉ.         </div>
         <div class="container-fluid row">
             <?php
 
@@ -201,13 +203,15 @@
                 </div>
             <?php } ?>
         </div>
-       
+        <div class="py-5 my-3 d-flex justify-content-center">
+            <a href="" class="btn bg-dark text-white px-5 py-3 text-uppercase">see more </a>
+        </div>
     </div>
 
 
     <div class="w-100 py-4" style="background-color: #eee;">
         <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-         D'EXPÉRIENCE CAPTURE D'ÉCRAN         </div>
+        RETOUR D'EXPÉRIENCE CAPTURE D'ÉCRAN         </div>
         <div class="container-fluid row">
             <?php
 
@@ -223,7 +227,9 @@
                 </div>
             <?php } ?>
         </div>
-       
+        <div class="py-5 my-3 d-flex justify-content-center">
+            <a href="" class="btn bg-dark text-white px-5 py-3 text-uppercase">see more </a>
+        </div>
     </div>
 
 
@@ -395,14 +401,17 @@ NELVINE LIVE LONG LIVE HAPPY <BR>
 10*VOTRE VIE <BR>
 
 COMMANDEZ MAINTENANT 
-<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;">commandé maintenant </a
+<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;">Contact through WhatsApp</a
 
  
                 </div>
                 <div class="py-2">
              
                 </div>
-                
+                <!--            
+                <div class="pt-4 d-flex justify-content-center">
+                    <a href="" class="btn border border-white text-white px-4 py-2 text-uppercase "><i class="fas fa-gift mx-2  "></i>get your free copy now</a>
+                --> 
             </div>
         </div>
     </div>
