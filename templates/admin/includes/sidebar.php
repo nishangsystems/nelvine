@@ -65,9 +65,9 @@
 							
 
 							<li class="">
-								<a href="?all_certi">
+								<a href="?upload">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Create Programs
+									Upload Images A
 								</a>
 
 								<b class="arrow"></b>
@@ -75,35 +75,13 @@
 
 
 							<li class="">
-								<a href="?deg_prog">
+								<a href="?upload_b">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Degree Programs
+									Upload Images B
 								</a>
 
 								<b class="arrow"></b>
 							</li>
-
-							
-							<li class="">
-								<a href="?pmt_mode">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Payment Options
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="?set_deadline">
-									<i class="menu-icon fa fa-caret-right"></i>
-									Set Deadline
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-						
-
 							
 						</ul>
 					</li>
@@ -215,24 +193,7 @@
 
 										<b class="arrow"></b>
 									</li>
-									<?php
-	
-									$a = $con->query("SELECT * FROM  users,degrees,transactions 
-									where  users.id=transactions.user_id AND  transactions.year_id='$year_id'
-									AND degrees.id=transactions.degree_type_id GROUP BY degrees.id=transactions.degree_type_id ") or die(mysqli_error($con));
-											
-									while($rows = $a->fetch_assoc()) {
-									?>
-	
-									<li class="">
-										<a href="?sector_finance&id=<?php echo $rows['degree_type_id']; ?>&others">
-											<i class="menu-icon fa fa-caret-right"></i>
-										<?php echo $rows['deg_name']; ?> Report
-										</a>
-
-										<b class="arrow"></b>
-									</li>
-									<?php } ?>
+								
 								
 								</ul>
 
@@ -258,23 +219,7 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-						<?php
 						
-						$a = $con->query("SELECT * FROM  users,campus where users.campus_id=campus.id GROUP BY users.campus_id  ") or die(mysqli_error($con));
-								
-						while($rows = $a->fetch_assoc()) {
-						?>
-
-						<li class="">
-							<a href="?by_camp&id=<?php echo $rows['campus_id']; ?>&camp=<?php echo $rows['camp_name']; ?>&others">
-								<i class="menu-icon fa fa-caret-right"></i>
-							<?php echo $rows['camp_name']; ?> 
-							</a>
-
-							<b class="arrow"></b>
-						</li>
-						<?php } ?>
-
 						
 						</ul>
 					</li>
@@ -291,24 +236,7 @@
 						<b class="arrow"></b>
 
 						<ul class="submenu">
-						<?php
-						
-						$a = $con->query("SELECT * FROM  users,campus where users.campus_id=campus.id GROUP BY users.campus_id  ") or die(mysqli_error($con));
-								
-						while($rows = $a->fetch_assoc()) {
-						?>
-
-						<li class="">
-							<a href="?class_lists&id=<?php echo $rows['campus_id']; ?>&camp=<?php echo $rows['camp_name']; ?>&others">
-								<i class="menu-icon fa fa-caret-right"></i>
-							<?php echo $rows['camp_name']; ?> 
-							</a>
-
-							<b class="arrow"></b>
-						</li>
-						<?php } ?>
-
-						
+					
 						</ul>
 					</li>
 

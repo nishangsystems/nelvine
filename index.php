@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?PHP include 'templates/admin/includes/functions.php'; ?>
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">

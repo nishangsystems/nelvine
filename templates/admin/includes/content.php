@@ -89,10 +89,7 @@
 
 						<div class="page-header">
 							<h1>
-								<?php if (isset($_GET['link'])){
-									echo $_GET['link'];
-								}
-								; ?>
+								
 							
 							</h1>
 						</div><!-- /.page-header -->
@@ -101,9 +98,13 @@
 							<div class="col-xs-12">
 								<!-- PAGE CONTENT BEGINS -->
 								<?php
-									if(isset($_GET['all_certi'])){
-										include '../SuperAdmin/Settings/chose_campus_prog.php';
+									if(isset($_GET['upload'])){
+										include '../SuperAdmin/upload.php';
 									}
+									if(isset($_GET['upload_b'])){
+										include '../SuperAdmin/upload_b.php';
+									}
+									
 									
 									
 								?>

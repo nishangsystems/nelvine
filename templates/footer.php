@@ -2,6 +2,7 @@
     <div class="w-100 py-5 d-flex" style="background-image: linear-gradient(transparent, rgb(0, 0, 24)); border-bottom: 1px solid #fff; ">
         <div class="row w-75 mx-auto">
             <div class="col-md-4">
+                <!--
                 <h3 style="color: #A57600" class="fw-bold">ABOUT NELVINE</h3>
                 <nav class="navbar">
                     <ul class="navbar-nav">
@@ -13,8 +14,10 @@
                         <li class="nav-item"><a href="" class="nav-link text-white">Contact us</a></li>
                     </ul>
                 </nav>
+            -->
             </div>
             <div class="col-md-4">
+                  <!--
                 <h3 style="color: #A57600" class="fw-bold">SHOP</h3>
                 <nav class="navbar">
                     <ul class="navbar-nav">
@@ -24,7 +27,7 @@
                         <li class="nav-item"><a href="" class="nav-link text-white">Get More Followers</a></li>
                         <li class="nav-item"><a href="" class="nav-link text-white">Scale my Business</a></li>
                     </ul>
-                </nav>
+                </nav> -->
             </div>
             <div class="col-md-4 text-end  text-white wrapper ">
                 <!-- <h3 style="color: #A57600" class="fw-bold">CONNECT WITH ME</h3> -->

@@ -1,4 +1,0 @@
-[03-Nov-2021 12:59:43 UTC] PHP Parse error:  syntax error, unexpected '" "' (T_CONSTANT_ENCAPSED_STRING) in /home/u182156984/domains/nishangsys.com/public_html/stlouisapply/SuperAdmin/Reports/ddo.php on line 35
-[03-Nov-2021 13:03:01 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/u182156984/domains/nishangsys.com/public_html/stlouisapply/SuperAdmin/Reports/ddo.php on line 49
-[03-Nov-2021 13:04:28 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/u182156984/domains/nishangsys.com/public_html/stlouisapply/SuperAdmin/Reports/ddo.php on line 49
-[03-Nov-2021 13:04:59 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/u182156984/domains/nishangsys.com/public_html/stlouisapply/SuperAdmin/Reports/ddo.php on line 48
