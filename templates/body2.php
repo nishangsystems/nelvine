@@ -20,9 +20,9 @@
         <div class="col-md-2"></div>
         <div class="col-md-10 color-gold py-5">
             <div class="fs-2 fw-bolder text-uppercase color-semi-gold py-4"></div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">HEALTH</div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">IS</div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">WEALTH</div>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
         </div>
     </div>
 
@@ -179,6 +179,7 @@
     </div>
 -->
 
+<?php include 'slider.php'; ?>
 
 
 

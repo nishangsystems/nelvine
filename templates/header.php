@@ -18,27 +18,21 @@
         </h5>
     </div>
     <div class="w-100 bg1 bg-blk color-gold" >
-        <nav class="navbar navbar-expand-sm justify-content-between" >
+        <nav class="navbar navbar-expand-sm navbar-dark justify-content-between" >
             <div class="col-md-3 text-center">
-                <a class="navbar-brand fs-2" href="#">NELVINE</a>
+                <a class="navbar-brand fs-2" href="#"><span style="color:rgb(217,185,141); font-weight:bold">NELVINE</span></a>
             </div>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                 aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars fw-bold"></i></button>
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0 navbar-right">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                        <a class="nav-link" href="index.php">Home <span class="visually-hidden">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownId">
-                            <a class="dropdown-item" href="#">Action 1</a>
-                            <a class="dropdown-item" href="#">Action 2</a>
-                        </div>
-                    </li>
+                   
                 </ul>
               
             </div>
