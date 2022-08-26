@@ -339,7 +339,7 @@ NELVINE LIVE LONG LIVE HAPPY <BR>
 10*VOTRE VIE <BR>
 
 COMMANDEZ MAINTENANT 
-<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;">commandé maintenant </a>
+<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;" class="text-center"> <i class="fab fa-whatsapp"></i> commandé maintenant </a>
 
  
                 </div>
