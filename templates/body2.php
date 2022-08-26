@@ -20,9 +20,9 @@
         <div class="col-md-2"></div>
         <div class="col-md-10 color-gold py-5">
             <div class="fs-2 fw-bolder text-uppercase color-semi-gold py-4"></div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">HEALTH</div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">IS</div>
-            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;">WEALTH</div>
+            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
         </div>
     </div>
 
@@ -179,66 +179,17 @@
     </div>
 -->
 
+        <?php include('carousel.php'); ?>
+
+
+ 
 
 
 
-
-    <div class="w-100 py-4" style="background-color: #eee;">
-        <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-               </div>
-        <div class="container-fluid row">
-            <?php
-
-            $a = $con->query("SELECT * from images_a  order by id DESC ") or die(mysqli_error($con));
-
-            while($rows = $a->fetch_assoc()) {
-            ?>
-                <div class="col-sm-6 col-md-4 col-lg-3 card hover-zoom bg-white">
-                    <div class="card-img-top embed-responsive embed-responsive-4by3">
-                        <img src="templates/admin/SuperAdmin/img/<?php  echo $rows['name']; ?>" alt="" class="responsive-item w-100">
-                    </div>
-                    
-                </div>
-            <?php } ?>
-        </div>
-       
-    </div>
-
-
-
-
-
-    
-
-
-    <div class="w-100 py-4" style="background-color: #eee;">
-        <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-             </div>
-        <div class="container-fluid row">
-            <?php
-
-            $a = $con->query("SELECT * from images_b  order by id DESC ") or die(mysqli_error($con));
-
-            while($rows = $a->fetch_assoc()) {
-            ?>
-                <div class="col-sm-6 col-md-4 col-lg-3 card hover-zoom bg-white">
-                    <div class="card-img-top embed-responsive embed-responsive-4by3">
-                        <img src="templates/admin/SuperAdmin/img/<?php  echo $rows['name']; ?>" alt="" class="responsive-item w-100">
-                    </div>
-                    
-                </div>
-            <?php } ?>
-        </div>
-       
-    </div>
 
 
 <h3 class="color-gold text-center py-5 ">LES QUESTIONS LES PLUS POSÉ PAR LES CLIENTS DE LA MEILLEURE
      MARQUE MINCEUR D'AFRIQUE NELVINE PREMIUM ONLY:</h3>
-
-
-
-
 
 
 
