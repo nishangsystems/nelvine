@@ -185,7 +185,7 @@
 
     <div class="w-100 py-4" style="background-color: #eee;">
         <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-         D'EXPÉRIENCE PHOTO DÉFILÉ.         </div>
+               </div>
         <div class="container-fluid row">
             <?php
 
@@ -205,9 +205,15 @@
     </div>
 
 
+
+
+
+    
+
+
     <div class="w-100 py-4" style="background-color: #eee;">
         <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
-         D'EXPÉRIENCE CAPTURE D'ÉCRAN         </div>
+             </div>
         <div class="container-fluid row">
             <?php
 
@@ -358,7 +364,7 @@
 
 
         <div class="w-100 bg-white py-5">
-        <div class="fs-1 text-center color-gold pb-3 text-uppercase">CALL TO ACTION</div>
+        <div class="fs-1 text-center color-gold pb-3 text-uppercase"> </div>
         <div class="d-flex flex-wrap container mx-auto">
            
             <div class="col-xs-10 col-md-12 mx-auto fs-3 color-gold">
@@ -395,7 +401,7 @@ NELVINE LIVE LONG LIVE HAPPY <BR>
 10*VOTRE VIE <BR>
 
 COMMANDEZ MAINTENANT 
-<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;">commandé maintenant </a
+<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;">commandé maintenant </a
 
  
                 </div>

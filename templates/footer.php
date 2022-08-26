@@ -34,6 +34,7 @@
                 <div class="button d-flex justify-content-center">   
                     <img src="assets/images/mtn.png" alt="" class="img-thumbnail col-4 mx-auto d-block">
                     <img src="assets/images/orange.png" alt="" class="img-thumbnail col-4 mx-auto d-block">
+                    <img src="assets/images/visa.png" alt="" class="img-thumbnail col-4 mx-auto d-block">
                     
                 </div>    
             </div>
