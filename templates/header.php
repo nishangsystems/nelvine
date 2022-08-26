@@ -18,27 +18,23 @@
         </h5>
     </div>
     <div class="w-100 bg1 bg-blk color-gold" >
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid" id="header">
-              <a class="navbar-brand color-gold text-decoration-none fs-1"  href="#">NELVINE</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>    
-                </ul>
-              </div>
+          <nav class="navbar navbar-expand-sm navbar-dark justify-content-between" >
+            <div class="col-md-3 text-center">
+                <a class="navbar-brand fs-2" href="#"><span style="color:rgb(217,185,141); font-weight:bold">NELVINE</span></a>
             </div>
-          </nav>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars fw-bold"></i></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0 navbar-right">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.php">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
 </div>
 

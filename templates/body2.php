@@ -19,10 +19,10 @@
     <div class="d-flex flex-wrap w-100 bg-x5 mx-auto">
         <div class="col-md-2"></div>
         <div class="col-md-10 color-gold py-5">
-            <div class="fs-2 fw-bolder text-uppercase color-semi-gold py-4"></div>
-            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
-            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
-            <div class="fw-bolder text-uppercase py-4 my-5" style="font-size: 5rem;"></div>
+            <div class="fs-2 fw-bolder text-uppercase color-semi-gold py-4"></div>>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
+            <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
         </div>
     </div>
 
@@ -106,18 +106,15 @@
 <!-- Carousel wrapper -->
 
 
-                <div class="w-100 py-5 " style="background:#e4e4e4" >
+    <div class="w-100 py-5 " style="background:#e4e4e4" >
 
-                <div class="col-6 mx-auto py-0 bg-dark" >
-                    <img src="assets/images/covera.jpg" alt="" srcset="" class="w-100">
-                </div>
-                </div>
-
-
+        <div class="col-6 mx-auto py-0 bg-dark" >
+            <img src="assets/images/covera.jpg" alt="" srcset="" class="w-100">
+        </div>
+    </div>
 
 
 
-    
     <div class="w-100  py-5" style="background:#e4e4e4">
      
         <div class="d-flex flex-wrap container mx-auto">
@@ -140,11 +137,6 @@
             </div>
         </div>
     </div>
-
-    
-
-
-
 
 
     <div class="w-100  py-5" style="background:#e4e4e4">
@@ -179,14 +171,9 @@
     </div>
 -->
 
-        <?php include('carousel.php'); ?>
-
-
- 
-
-
-
-
+        <?php include 'slider.php'; ?>
+        <?php include 'carousel.php'; ?>
+                            </div>
 
 <h3 class="color-gold text-center py-5 ">LES QUESTIONS LES PLUS POSÉ PAR LES CLIENTS DE LA MEILLEURE
      MARQUE MINCEUR D'AFRIQUE NELVINE PREMIUM ONLY:</h3>
@@ -352,7 +339,7 @@ NELVINE LIVE LONG LIVE HAPPY <BR>
 10*VOTRE VIE <BR>
 
 COMMANDEZ MAINTENANT 
-<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;">commandé maintenant </a
+<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 1em 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;">commandé maintenant </a>
 
  
                 </div>
