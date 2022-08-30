@@ -3,7 +3,7 @@
     // Turn off all error reporting
      error_reporting(1); 
 	 
-    $con = mysqli_connect('localhost','root','','nel');
+    $con = mysqli_connect('localhost','root','','2022_nel');
     //$con = mysqli_connect('localhost','u182156984_stlouisapp','Cpadmin@123','u182156984_stlouisapp');;        
     // Check connection
     if (mysqli_connect_errno())
@@ -15,7 +15,7 @@
 	function dbcon(){
 		static $conn;
 	  if ($conn===NULL){ 
-		  $conn = mysqli_connect ('localhost','root','','nel');;
+		  $conn = mysqli_connect ('localhost','root','','2022_nel');;
 		 // $conn = mysqli_connect ('localhost','u182156984_stlouisapp','Cpadmin@123','u182156984_stlouisapp');;
 	  }
 	

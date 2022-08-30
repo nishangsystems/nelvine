@@ -14,7 +14,7 @@
 </div>
 
 </div>
-
+<!--
 <div class="w-100">
     <div class="d-flex flex-wrap w-100 bg-x5 mx-auto">
         <div class="col-md-2"></div>
@@ -25,7 +25,19 @@
             <div class="fw-bolder text-uppercase py-4" style="font-size: 5rem;"></div>
         </div>
     </div>
+--->
 
+<div class="w-100 d-flex flex-column justify-content-center border-top border-light bg5">
+        <div class="w-75 mx-auto text-center text-uppercase fs-3 fw-bolder color-gold py-5">
+        Comment j'ai perdu 20 kilos en 1 mois et demi sans régime alimentaire avec le nouveau 
+        pack NELVINE NEW ME LIMITED EDITION LIVE LONG LIVE HAPPY
+        </div>
+    
+        <div class=" d-flex justify-content-center w-100">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GjYMCiIapXg" allowfullscreen style></iframe>
+        </div>
+        
+    </div>
     
     <div class="w-100 d-flex flex-column justify-content-center border-top border-light bg5">
         <div class="w-75 mx-auto text-center text-uppercase fs-1 fw-bolder color-gold py-5">
@@ -47,8 +59,9 @@
             </div>
             <div class="col-xs-10 col-md-6 mx-auto fs-3 color-blk">
                 <div class="py-2">
-                 
-                    <img src="assets/images/cover.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
+                <img src="templates/admin/assets/images/flyers/6.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
+
+                   
 
                 </div>
                 <div class="py-2">
@@ -104,6 +117,32 @@
 <!-- Inner -->
 </div>
 <!-- Carousel wrapper -->
+
+<div class="w-100 py-4" style="background-color: #eee;">
+        <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
+             </div>
+        <div class="container-fluid row">
+            <?php
+
+            $a = $con->query("SELECT * from flyers  order by id  ") or die(mysqli_error($con));
+
+            while($rows = $a->fetch_assoc()) {
+         
+            ?>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 card hover-zoom bg-white">
+                    <div class="card-img-top embed-responsive embed-responsive-4by3">
+                    <img src="templates/admin/assets/images/flyers/<?php  echo $rows['name']; ?>" alt="" class="w-100 h-auto  d-block mx-auto">
+
+                    </div>
+                    
+                </div>
+            <?php } ?>
+        </div>
+        
+    </div>
+
+
 
 
     <div class="w-100 py-5 " style="background:#e4e4e4" >
@@ -175,6 +214,32 @@
         <?php include 'carousel.php'; ?>
                             </div>
 
+                            <div class="w-100 py-4" style="background-color: #eee;">
+        <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
+             </div>
+        <div class="container-fluid row">
+            <?php
+
+            $a = $con->query("SELECT * from flyers WHERE status='2' order by id  ") or die(mysqli_error($con));
+
+            while($rows = $a->fetch_assoc()) {
+         
+            ?>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 card hover-zoom bg-white">
+                    <div class="card-img-top embed-responsive embed-responsive-4by3">
+                    <img src="templates/admin/assets/images/flyers/<?php  echo $rows['name']; ?>" alt="" class="w-100 h-auto  d-block mx-auto">
+
+                    </div>
+                    
+                </div>
+            <?php } ?>
+        </div>
+        
+    </div>
+
+
+
 <h3 class="color-gold text-center py-5 ">LES QUESTIONS LES PLUS POSÉ PAR LES CLIENTS DE LA MEILLEURE
      MARQUE MINCEUR D'AFRIQUE NELVINE PREMIUM ONLY:</h3>
 
@@ -212,7 +277,7 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/COACH MINCEUR</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
                       </div>
                     </div>
                 </div>
@@ -238,7 +303,7 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/COACH MINCEUR</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
                       </div>
                     </div>
                 </div>
@@ -262,7 +327,7 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/COACH MINCEUR</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
                       </div>
                     </div>
                 </div>
@@ -292,7 +357,38 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/COACH MINCEUR</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
+                      </div>
+                    </div>
+                </div>
+                
+
+
+
+
+
+
+                <div class="col-md-6 my-2 p-0">
+                    <div class="w-100 py-3 px-4" style="background-color: #eee;">
+                        <blockquote class="my-3">
+                            <header class="fw-bold fs-4 coloir-semi-gold py-2">Et si jatend la prochaine promotion ?</header>
+                            <p class="py-1 color-black">
+                            A chaque promotion les prix augmentent
+                            </p>
+                        </blockquote>
+                        <div class="d-flex flex-wrap justify-content-start pl-5 w-100 mb-5">
+                            <i class="fas fa-star color-gold fs-4 mx-2 "></i>
+                            <i class="fas fa-star color-gold fs-4 mx-2 "></i>
+                            <i class="fas fa-star color-gold fs-4 mx-2 "></i>
+                            <i class="fas fa-star color-gold fs-4 mx-2 "></i>
+                            <i class="fas fa-star color-gold fs-4 mx-2 "></i>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap my-0 px-4">
+                      <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
+                      <div class="col-sm-7 mx-auto py-4">
+                        <h4 class="card-title color-gold h4">NELVINE</h4>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
                       </div>
                     </div>
                 </div>
@@ -301,12 +397,12 @@
         </div>
 
 
-        <div class="w-100 bg-white py-5">
+        <div class="w-100 bg-blk py-5 color-gold">
         <div class="fs-1 text-center color-gold pb-3 text-uppercase"> </div>
         <div class="d-flex flex-wrap container mx-auto">
            
             <div class="col-xs-10 col-md-12 mx-auto fs-3 color-gold">
-                <div class="py-2" style="text-shadow:none; color:#000; font: size 14px;">
+                <div class="py-2" style="text-shadow:none;  font: size 14px;">
                 Nous sommes en promotion aujourd'hui a l'occasion du lancement officiel
                 4 de mon nouveau site internet.Tout les prix sont divisés par 2.le pack ventre plat + 
                  le suivie de 7 an après la perte + le thé de  maintien et stabilisation+ le suivie de
