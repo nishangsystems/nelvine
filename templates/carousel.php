@@ -1,14 +1,14 @@
 
 <!-- Carousel wrapper -->
-<div  id="carouselMultiItemExample2" class="carousel slide" data-bs-ride="carousel" >
+<div  id="carouselMultiItemExample2" class="carousel slide position-relative py-5 align-items-center" data-bs-ride="carousel" >
   <!-- Controls -->
-  <div class="d-flex justify-content-center mb-4">
-    <button class="carousel-control-prev position-relative" type="button" data-mdb-target="#carouselMultiItemExample2" data-mdb-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <div class="d-flex justify-content-between mb-4 w-100">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMultiItemExample2" data-bs-slide="prev">
+      <i class="fas fa-angle-double-left fs-1 text-dark fa-x8 "></i>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next position-relative" type="button" data-mdb-target="#carouselMultiItemExample2" data-mdb-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMultiItemExample2" data-bs-slide="next">
+      <i class="fas fa-angle-double-right fs-1 text-dark  "></i>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
