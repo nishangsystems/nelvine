@@ -298,7 +298,7 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS MENTOR</p>
                       </div>
                     </div>
                 </div>
@@ -383,7 +383,7 @@
                       <img class="col-sm-3 mx-auto img rounded-circle" src="assets/images/photo.jpg" alt="Title" style="margin-top: -2rem; width: 8rem; height: 8rem;">
                       <div class="col-sm-7 mx-auto py-4">
                         <h4 class="card-title color-gold h4">NELVINE</h4>
-                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT LOSS EXPERT</p>
+                        <p class="card-text color-black h5">CEO/BODY HERO/WEIGHT MENTOR</p>
                       </div>
                     </div>
                 </div>
@@ -417,11 +417,11 @@ OSÉ RECONQUÉRIR VÔTRE CHÉRI, <BR>
 
 AUGMENTER VOTRE ESPÉRANCE DE VIE ,<BR>
 
-RETROUVEZ CONFIANCE EN VOUS ,<BR>
+RETROUVEZ CONFIANCE EN VOUS .<BR>
 
-BUY A BETTER VERSION OF YOUR SELF TODAY ,<BR>
+BUY A BETTER VERSION OF YOUR SELF TODAY .<BR>
 
-SOAR ,  <BR>
+SOAR .  <BR>
 
 #WOMAN EVOLVE ,<BR>
 
@@ -431,7 +431,7 @@ NELVINE LIVE LONG LIVE HAPPY. <BR>
 10* VOTRE SANTÉ <BR>
 10*VOTRE VIE <BR>
 
-<a href="https://api.whatsapp.com/send?phone=+237674187565&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;" class="text-center my-3"> <i class="fab fa-whatsapp"></i> commandé maintenant </a>
+<a href="https://api.whatsapp.com/send?phone=674187565&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;" class="text-center my-3"> <i class="fab fa-whatsapp"></i> commandé maintenant </a>
 
  
                 </div>
