@@ -38,6 +38,31 @@
         </div>
         
     </div>
+
+    <div class="w-100 py-4" style="background-color: #eee;">
+        <div class="text-center fs-1 fw-bold text-capitalize color-gold py-3">
+             </div>
+        <div class="container-fluid row">
+            <?php
+
+            $a = $con->query("SELECT * from flyers WHERE status='3'  order by id  ") or die(mysqli_error($con));
+
+            while($rows = $a->fetch_assoc()) {
+         
+            ?>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 card hover-zoom bg-white">
+                    <div class="card-img-top embed-responsive embed-responsive-4by3">
+                    <img src="templates/admin/assets/images/flyers/<?php  echo $rows['name']; ?>" alt="" class="w-100 h-auto  d-block mx-auto">
+
+                    </div>
+                    
+                </div>
+            <?php } ?>
+        </div>
+        
+    </div>
+
     
     <div class="w-100 d-flex flex-column justify-content-center border-top border-light bg5">
         <div class="w-75 mx-auto text-center text-uppercase fs-1 fw-bolder color-gold py-5">
@@ -124,7 +149,7 @@
         <div class="container-fluid row">
             <?php
 
-            $a = $con->query("SELECT * from flyers  order by id  ") or die(mysqli_error($con));
+            $a = $con->query("SELECT * from flyers where status='1' order by id  ") or die(mysqli_error($con));
 
             while($rows = $a->fetch_assoc()) {
          
@@ -143,39 +168,6 @@
     </div>
 
 
-
-
-    <div class="w-100 py-5 " style="background:#e4e4e4" >
-
-        <div class="col-6 mx-auto py-0 bg-dark" >
-            <img src="assets/images/covera.jpg" alt="" srcset="" class="w-100">
-        </div>
-    </div>
-
-
-
-    <div class="w-100  py-5" style="background:#e4e4e4">
-     
-        <div class="d-flex flex-wrap container mx-auto">
-            <div class="col-xs-10 col-md-6 mx-auto d-flex flex-column justify-content-center">
-                <img src="assets/images/secta.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
-            </div>
-            <div class="col-xs-10 col-md-6 mx-auto fs-3 color-blk">
-                <div class="py-2">
-                 
-                    <img src="assets/images/secb.jpg" alt="" class="w-100 h-auto  d-block mx-auto">
-
-                </div>
-                <div class="py-2">
-             
-                </div>
-                <!--            
-                <div class="pt-4 d-flex justify-content-center">
-                    <a href="" class="btn border border-white text-white px-4 py-2 text-uppercase "><i class="fas fa-gift mx-2  "></i>get your free copy now</a>
-                --> 
-            </div>
-        </div>
-    </div>
 
 
     <div class="w-100  py-5" style="background:#e4e4e4">

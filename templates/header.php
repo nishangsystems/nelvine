@@ -29,9 +29,7 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="index.php">Home <span class="visually-hidden">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
+                  
                 </ul>
             </div>
         </nav>
