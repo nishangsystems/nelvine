@@ -1,5 +1,5 @@
 
-
+<!--
 <div class="d-flex flex-column justify-content-start w-100 bg3 py-3">
 
 <div class="row w-75 mx-auto color-gold my-3 fs-1 text-center">
@@ -14,7 +14,7 @@
 </div>
 
 </div>
-<!--
+
 <div class="w-100">
     <div class="d-flex flex-wrap w-100 bg-x5 mx-auto">
         <div class="col-md-2"></div>
@@ -113,6 +113,8 @@
         <div class="container">
             <div class="row">
                     <div class="col-lg-6">
+                        
+<h3 class="color-gold text-center py-5 ">Démonstration life du nouveau pack ventre plat NELVINE LIVE LONG LIVE HAPPY</h3>
                         <div class="card">
                             <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/vwvkdkOJY-Q" allowfullscreen style></iframe>
                             <div class="card-body">
@@ -125,6 +127,7 @@
 
 
                     <div class="col-lg-6">
+                    <h3 class="color-gold text-center py-5 ">Comment j'ai perdu 10 kilos en 5 jours avec le pack NELVINE NEW ME</h3>
                         <div class="card">
                             <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/AFwpDcmU4Kg" allowfullscreen style></iframe>
                             <div class="card-body">
@@ -398,35 +401,37 @@
                 Nous sommes en promotion aujourd'hui a l'occasion du lancement officiel
                 4 de mon nouveau site internet.Tout les prix sont divisés par 2.le pack ventre plat + 
                  le suivie de 7 an après la perte + le thé de  maintien et stabilisation+ le suivie de
-                  7 an après la sont offerts pour toute commande aujourd'hui pour éliminer tout  risque de reprise <BR>
-For those who demande only the best of what life has to offer this premium package is for you 
-Available to only 1 %of AFRICAS population to ensure the highest Caliber of personal follow up IS offered to all its members<BR> 
+                  7 an après la sont offerts pour toute commande aujourd'hui pour éliminer tout  risque de reprise. <BR>
+"For those who demande only the best of what life has to offer",
+this premium package is for you .
+Available to only 1 % of AFRICA'S population to ensure the highest Caliber of
+ personal follow up is offered to all its members.<BR> 
 
 <strong>APPLY NOW!</strong> <BR>
 
-PREMIUM ONLY 
+PREMIUM ONLY .<br>
 
-NOT FOR EVERY ONE <BR>
+NOT FOR EVERY ONE .<BR>
 
-OSÉ RECONQUÉRIR VÔTRE CHÉRI <BR>
+OSÉ RECONQUÉRIR VÔTRE CHÉRI, <BR>
 
-AUGMENTER VOTRE ESPÉRANCE DE VIE <BR>
+AUGMENTER VOTRE ESPÉRANCE DE VIE ,<BR>
 
-RETROUVEZ CONFIANCE EN VOUS <BR>
+RETROUVEZ CONFIANCE EN VOUS ,<BR>
 
-BUY A BETTER VERSION OF YOUR SELF TODAY <BR>
+BUY A BETTER VERSION OF YOUR SELF TODAY ,<BR>
 
-SOAR   <BR>
+SOAR ,  <BR>
 
-#WOMAN EVOLVE <BR>
+#WOMAN EVOLVE ,<BR>
 
-NELVINE LIVE LONG LIVE HAPPY <BR>
+NELVINE LIVE LONG LIVE HAPPY. <BR>
 
 10*VOTRE BEAUTÉ <BR>
 10* VOTRE SANTÉ <BR>
 10*VOTRE VIE <BR>
 
-<a href="https://api.whatsapp.com/send?phone=+237695784424&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;" class="text-center my-3"> <i class="fab fa-whatsapp"></i> commandé maintenant </a>
+<a href="https://api.whatsapp.com/send?phone=+237674187565&text=I Saw your product on your website and I am interested" target="_blank" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #000; font-size: 0.9em; padding: 1em 3.5em; border-radius: 2em; font-weight: bold; background:rgb(217,185,141); background-size: 1.6em;" class="text-center my-3"> <i class="fab fa-whatsapp"></i> commandé maintenant </a>
 
  
                 </div>
