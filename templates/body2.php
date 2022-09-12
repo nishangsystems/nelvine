@@ -1,5 +1,5 @@
 
-<!--
+
 <div class="d-flex flex-column justify-content-start w-100 bg3 py-3">
 
 <div class="row w-75 mx-auto color-gold my-3 fs-1 text-center">
@@ -14,7 +14,7 @@
 </div>
 
 </div>
-
+<!--
 <div class="w-100">
     <div class="d-flex flex-wrap w-100 bg-x5 mx-auto">
         <div class="col-md-2"></div>
