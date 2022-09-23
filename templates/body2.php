@@ -138,6 +138,36 @@
                         </div>
                     </div>
                     
+               
+
+
+
+                <div class="col-lg-6">
+                        
+<h3 class="color-gold text-center py-5 ">Comment le programme Nel-vine a changé ma vie</h3>
+                        <div class="card">
+                            <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/meQJx5KuAnI" allowfullscreen style></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">NEL NEW ME PREMIUM</h5>
+                               
+                                <a href="https://youtu.be/meQJx5KuAnI"  class="btn btn-danger d-block mx-auto" target="_new">watch now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6">
+                    <h3 class="color-gold text-center py-5 ">Merci Nel-vine</h3>
+                        <div class="card">
+                            <iframe class="embed-responsive-item card-img-top" src="https://www.youtube.com/embed/dAXFDVaZ0F8" allowfullscreen style></iframe>
+                            <div class="card-body">
+                                <h5 class="card-title">NELVINE NEW ME PREMIUM ONLY</h5>
+                               
+                                <a href="https://youtu.be/dAXFDVaZ0F8"  class="btn btn-danger d-block mx-auto" target="_new">watch now</a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
